@@ -51,6 +51,11 @@ public:
 		g("DerivedLevel2");
 		Derived1Level1::h("DerivedLevel2");
 		BaseClass::f("DerivedLevel2");
+		BaseClass::g("DerivedLeve2");
+	}
+
+	void g(const char* s = "unkdown") {
+		cout << "Function g() in DerivedLevel2 called from " << s << endl;
 	}
 };
 
@@ -60,7 +65,9 @@ int main() {
 	Derived1Level1 d1l1;
 	Derived2Level1 d2l1;
 	DerivedLevel2 dl2;
-	bc.f("main(1)");
-	d1l1.f("main(2)");
+	//bc.f("main(1)");
+	//d1l1.f("main(2)");
+	//d2l1.f("main(3)");
+	dl2.f("main (4)");
 	return 0;
 }
