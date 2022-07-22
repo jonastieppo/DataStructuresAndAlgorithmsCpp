@@ -58,16 +58,3 @@ public:
 		cout << "Function g() in DerivedLevel2 called from " << s << endl;
 	}
 };
-
-int main() {
-
-	BaseClass bc;
-	Derived1Level1 d1l1;
-	Derived2Level1 d2l1;
-	DerivedLevel2 dl2;
-	//bc.f("main(1)");
-	//d1l1.f("main(2)");
-	//d2l1.f("main(3)");
-	dl2.f("main (4)");
-	return 0;
-}

@@ -20,6 +20,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Chapter 1\Inheretance.cpp" />
+    <ClCompile Include="Chapter 1\methods_call.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Chapter 1\pointers.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
