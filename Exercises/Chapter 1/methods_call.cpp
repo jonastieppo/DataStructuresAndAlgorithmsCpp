@@ -1,6 +1,7 @@
 #include <iostream>
 #include "Inheretance.cpp"
 #include "pointers.cpp"
+#include "pointers_and_copy_constructors.cpp";
 
 using namespace std;
 
@@ -22,5 +23,11 @@ public:
 		Pointers pointer;
 		pointer.SumAnArrayAspointer();
 	}
+	
+	void pointers_and_copy_constructors_explanation() {
+		pointers_and_copy_constructors copy_constructor;
+		copy_constructor.explanation_p_and_copy_constructors();
+	}
+
 };
 

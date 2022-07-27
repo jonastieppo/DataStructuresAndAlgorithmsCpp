@@ -27,5 +27,8 @@
     <ClCompile Include="Chapter 1\methods_call.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Chapter 1\pointers_and_copy_constructors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

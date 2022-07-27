@@ -9,7 +9,10 @@ int main() {
 	cout << "Exercices of chapter 1: \n ============" << endl;
 	ChapterOne.Inheretance();
 	ChapterOne.ArrayAsPointer();
+	ChapterOne.pointers_and_copy_constructors_explanation();
 	return 0;
+
+
 }
 
 
