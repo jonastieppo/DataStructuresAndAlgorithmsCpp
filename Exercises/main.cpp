@@ -11,6 +11,7 @@ int main() {
 	ChapterOne.ArrayAsPointer();
 	ChapterOne.pointers_and_copy_constructors_explanation();
 	ChapterOne.pointer_and_reference_var();
+	ChapterOne.polymorphism();
 	return 0;
 
 

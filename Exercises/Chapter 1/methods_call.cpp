@@ -3,6 +3,7 @@
 #include "pointers.cpp"
 #include "pointers_and_copy_constructors.cpp";
 #include "pointers_and_reference_var.cpp"
+#include "polymorphism/invokingclasses.cpp"
 
 using namespace std;
 
@@ -32,6 +33,10 @@ public:
 
 	void pointer_and_reference_var() {
 		PointersAndRefVar prf;
+	}
+
+	void polymorphism() {
+		PolyMorphism poli;
 	}
 
 };

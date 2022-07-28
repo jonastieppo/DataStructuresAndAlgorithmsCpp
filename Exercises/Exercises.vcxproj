@@ -23,6 +23,8 @@
     <ClCompile Include="Chapter 1\methods_call.cpp" />
     <ClCompile Include="Chapter 1\pointers_and_copy_constructors.cpp" />
     <ClCompile Include="Chapter 1\pointers_and_reference_var.cpp" />
+    <ClCompile Include="Chapter 1\polymorphism\invokingclasses.cpp" />
+    <ClCompile Include="Chapter 1\polymorphism\polymorphism.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Chapter 1\pointers.cpp" />
   </ItemGroup>
